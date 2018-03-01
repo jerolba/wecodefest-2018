@@ -8,10 +8,4 @@
 		<version>2018</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<dependencies>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-		</dependency>
-	</dependencies>
 </project>

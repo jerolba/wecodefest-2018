@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -10,7 +11,12 @@
 
 	<modules>
 		<module>wecode-workshop-utilities</module>
+		<module>wecode-sleep</module>
 		<module>wecode-01-tools</module>
+		<module>wecode-02-hot-methods</module>
+		<module>wecode-03-latencies</module>
+		<module>wecode-04-memory-allocation</module>
+		<module>wecode-05-jmh</module>
 	</modules>
 
 	<build>
