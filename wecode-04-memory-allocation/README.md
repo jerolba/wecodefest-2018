@@ -1,4 +1,4 @@
-###Memoria
+### Memoria
 
 1.- Compila y ejecuta la aplicación con
 
@@ -18,6 +18,7 @@ Solucionalo y vuelve a ejecuar la prueba, renombrando el fichero memoryallocatio
 
 Ver cómo se ha reducido la presión de memoria.  
 
+
 2.- Otra vez: ¿Qué clases se instancian más? ¿Donde? ¿Por qué?
  
 Solucionalo y vuelve a ejecuar la prueba, renombrando el fichero memoryallocation.jfr para poder comparar luego.
@@ -27,6 +28,7 @@ Solucionalo y vuelve a ejecuar la prueba, renombrando el fichero memoryallocatio
 Una vez solucionado (con la ayuda del instructor), vuelve a ejecutarlo conservando el memoryallocation.jfr
 
 ¿Qué le está pasando al GC? 
+
 
 
 3.- Ejecutar la aplicación con 

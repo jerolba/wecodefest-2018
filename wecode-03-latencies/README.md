@@ -1,4 +1,4 @@
-###Latencias y bloqueos
+### Latencias y bloqueos
 
 1.- Compila y ejecuta la aplicación con
 
