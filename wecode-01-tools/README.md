@@ -1,5 +1,11 @@
 ### Java Tools
 
+En otro terminal lanza una aplicación de ejemplo:
+
+```bash
+$ run.sh
+```
+
 Lista todos los procesos Java en ejecución con el paquete y nombre de clase principal:
 
 ```bash

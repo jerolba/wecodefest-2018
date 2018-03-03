@@ -47,7 +47,7 @@ public class Connection {
                 // Simulate that this takes a little while.
                 //Uncomment following line if server does not work or you do not have connection to cloud server
                 //Thread.sleep(QUERY_EXECUTION_TIME);
-                URL url = new URL("http://localhost:8080/sleep?time="+QUERY_EXECUTION_TIME);
+                URL url = new URL("http://104.196.220.119/sleep?time="+QUERY_EXECUTION_TIME);
                 //Comment following lines if there is no server up
                 HttpURLConnection con = (HttpURLConnection) url.openConnection();
                 con.setRequestMethod("GET");

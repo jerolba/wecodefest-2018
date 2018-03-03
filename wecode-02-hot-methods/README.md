@@ -46,20 +46,22 @@ Puede haber múltiples grabaciones concurrentemente.
 Volcar el resultado de la grabación:
 
 ```bash
-$ jcmd {PID} JFR.dump recording=1 filename=hot_methods_jcmd.jfr
+$ jcmd {PID} JFR.dump filename=hot_methods_jcmd.jfr
 ```
 
 Parar la grabación:
 
 ```bash
-$ jcmd {PID} JFR.stop recording=1
+$ jcmd {PID} JFR.stop
 ```
 
 Grabar un tiempo determinado:
 
 ```bash
-$ jcmd {PID} JFR.start filename=hot_methods_jcmd.jfr settings=profile delay=5s duration=60s
+$ jcmd {PID} JFR.start filename=hot_methods_jcmd.jfr settings=profile delay=5s duration=30s
 ```
+
+El fichero se generará donde lanzaste el comando de `java`, no donde estes ejecutando el comando `jcmd`
 
 Mientras se ejecuta, comprobar como va:
 

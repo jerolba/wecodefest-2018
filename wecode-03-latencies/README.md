@@ -1,5 +1,7 @@
 ### Latencias y bloqueos
 
+Si no tienes conexión a internet: 
+
 0.- En el directorio `wecode-sleep` lanza esta aplicacón en un terminal nuevo.
 
 ```bash
