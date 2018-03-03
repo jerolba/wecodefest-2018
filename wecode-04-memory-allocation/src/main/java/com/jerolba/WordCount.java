@@ -46,7 +46,7 @@ public class WordCount {
 
     public static class WordLocation {
 
-        private int line;
+        private Integer line;
         private String word;
 
         public WordLocation(int line, String word) {
@@ -54,7 +54,7 @@ public class WordCount {
             this.word = word;
         }
 
-        public int getLine() {
+        public Integer getLine() {
             return line;
         }
 
