@@ -1,5 +1,13 @@
 ### Latencias y bloqueos
 
+0.- En el directorio `wecode-sleep` lanza esta aplicacón en un terminal nuevo.
+
+```bash
+$ run.sh
+```
+
+Dejad la aplicación lanzada durante todo el ejercicio.
+
 1.- Compila y ejecuta la aplicación con
 
 ```bash
